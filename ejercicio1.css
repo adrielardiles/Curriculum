@@ -1,0 +1,77 @@
+body{
+    margin: 0 30%;
+}
+
+section{
+    margin-top: 7.5%;
+    margin-bottom: 3%;
+
+
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+header{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-color: gray;
+}
+
+h2{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.74);
+}
+
+
+
+li{
+    margin-top: 2%;
+}
+
+#datosSection{
+
+    height: 20rem;
+    
+}
+
+
+#datosPersonales{
+    display: flex;
+    width: 100%;
+    height: 75%;
+}
+
+#nombre{
+    font-size: large;
+}
+
+
+#personalText{
+
+    flex: 0 0 30%;
+    
+}
+
+#foto{
+    border: 2px solid black;
+    text-align: center;
+    flex: 0 0 25%;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    box-sizing: border-box; /* Incluye el borde en el tamaño total */
+
+}
+
+#espacio{
+    flex: 0 0 35%;
+
+}
+
+#fototext{
+    
+}
